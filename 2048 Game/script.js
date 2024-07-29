@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const gameOverElem = document.getElementById('game-over');
 
-  // Function to update the score
+
   function updateScore(value) {
       currentScore += value;
       currentScoreElem.textContent = currentScore;
